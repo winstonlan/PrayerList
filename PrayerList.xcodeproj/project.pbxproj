@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4416EC3420DC4B60009F52A7 /* PrayerRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416EC3320DC4B60009F52A7 /* PrayerRequestTableViewCell.swift */; };
 		44A46C4820D6D704008B50B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A46C4720D6D704008B50B3 /* AppDelegate.swift */; };
-		44A46C4A20D6D704008B50B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A46C4920D6D704008B50B3 /* ViewController.swift */; };
 		44A46C4D20D6D704008B50B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A46C4B20D6D704008B50B3 /* Main.storyboard */; };
 		44A46C4F20D6D704008B50B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A46C4E20D6D704008B50B3 /* Assets.xcassets */; };
 		44A46C5220D6D704008B50B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A46C5020D6D704008B50B3 /* LaunchScreen.storyboard */; };
+		44BF531E20D87C98005D469D /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF531D20D87C98005D469D /* PeopleTableViewController.swift */; };
+		44BF532320D87F09005D469D /* PrayerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF532220D87F09005D469D /* PrayerRequest.swift */; };
+		44BF532520D88383005D469D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF532420D88383005D469D /* User.swift */; };
+		44BF532720D88558005D469D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF532620D88558005D469D /* Person.swift */; };
+		44BF532920DC27CA005D469D /* PrayerRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF532820DC27CA005D469D /* PrayerRequestTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4416EC3320DC4B60009F52A7 /* PrayerRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRequestTableViewCell.swift; sourceTree = "<group>"; };
 		44A46C4420D6D704008B50B3 /* PrayerList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A46C4720D6D704008B50B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44A46C4920D6D704008B50B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44A46C4C20D6D704008B50B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44A46C4E20D6D704008B50B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A46C5120D6D704008B50B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A46C5320D6D704008B50B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BF531D20D87C98005D469D /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		44BF532220D87F09005D469D /* PrayerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRequest.swift; sourceTree = "<group>"; };
+		44BF532420D88383005D469D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44BF532620D88558005D469D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		44BF532820DC27CA005D469D /* PrayerRequestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRequestTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		44A46C4620D6D704008B50B3 /* PrayerList */ = {
 			isa = PBXGroup;
 			children = (
-				44A46C4720D6D704008B50B3 /* AppDelegate.swift */,
-				44A46C4920D6D704008B50B3 /* ViewController.swift */,
-				44A46C4B20D6D704008B50B3 /* Main.storyboard */,
-				44A46C4E20D6D704008B50B3 /* Assets.xcassets */,
-				44A46C5020D6D704008B50B3 /* LaunchScreen.storyboard */,
+				44BF531C20D87C4D005D469D /* Other */,
+				44BF531F20D87D4C005D469D /* Model */,
 				44A46C5320D6D704008B50B3 /* Info.plist */,
+				44BF531A20D87C33005D469D /* Controller */,
+				44BF531B20D87C3D005D469D /* View */,
 			);
 			path = PrayerList;
+			sourceTree = "<group>";
+		};
+		44BF531A20D87C33005D469D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44BF531D20D87C98005D469D /* PeopleTableViewController.swift */,
+				44BF532820DC27CA005D469D /* PrayerRequestTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44BF531B20D87C3D005D469D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A46C5020D6D704008B50B3 /* LaunchScreen.storyboard */,
+				44A46C4B20D6D704008B50B3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44BF531C20D87C4D005D469D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				44A46C4720D6D704008B50B3 /* AppDelegate.swift */,
+				44A46C4E20D6D704008B50B3 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		44BF531F20D87D4C005D469D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BF532220D87F09005D469D /* PrayerRequest.swift */,
+				44BF532420D88383005D469D /* User.swift */,
+				44BF532620D88558005D469D /* Person.swift */,
+				4416EC3320DC4B60009F52A7 /* PrayerRequestTableViewCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A46C4A20D6D704008B50B3 /* ViewController.swift in Sources */,
+				44BF532720D88558005D469D /* Person.swift in Sources */,
+				44BF532920DC27CA005D469D /* PrayerRequestTableViewController.swift in Sources */,
+				44BF531E20D87C98005D469D /* PeopleTableViewController.swift in Sources */,
+				4416EC3420DC4B60009F52A7 /* PrayerRequestTableViewCell.swift in Sources */,
+				44BF532320D87F09005D469D /* PrayerRequest.swift in Sources */,
+				44BF532520D88383005D469D /* User.swift in Sources */,
 				44A46C4820D6D704008B50B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
